@@ -2,6 +2,22 @@ body {
   background-color: white;
   margin: 0 0 0 0;
 }
+/* 
+Navbar ******************** */
+.container-fluid {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.navbar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
 
 /* Main Page *********************/
 
@@ -16,8 +32,16 @@ body {
   padding: 0 0 0 0;
 }
 
-.container_img {
+.my_container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 0 0 0;
   width: 100%;
+  padding: 0 0 0 0;
+}
+
+.container_img {
+  width: 25%;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
 }
@@ -35,7 +59,40 @@ body {
 
 /* nav bar ***********************/
 .logo-img {
-  width: 9%;
+  width: 5%;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 /* STOP COMPROMISING *************/
+.logo-img2 {
+  width: 12%;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.logos {
+  width: 40%;
+  padding-top: 8%;
+  text-align: center;
+}
+
+.my_container2 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 0 0 0;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.bespoke {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.lineas {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
