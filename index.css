@@ -3,8 +3,9 @@ body {
   margin: 0 0 0 0;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, p {
   color: black;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Navbar *********************/
@@ -65,7 +66,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /* STOP COMPROMISING *************/
-
 .logo-img2 {
   width: 12%;
   padding-bottom: 50px;
@@ -101,16 +101,41 @@ hr {
 }
 
 /* Quote *********************/
-
 #quote {
-background-color: #F5F5F5;
+  background-image: url(./utilities/images/quote.jpg);
+  background-position: center;
+  height: 320px;
 }
-
+h2 {
+  color: white;
+  font-weight: bold;
+}
 .my_container3 {
   display: flex;
   flex-wrap: nowrap;
   margin: 0 0 0 0;
   width: 100%;
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 5%;
+}
+
+/* Our Story ****************/
+.story-img {
+  width: 95%;
+  padding-top: 15%;
+}
+h4 {
+  font-weight: bolder;
+}
+
+.story-column {
+text-align: justify;
+padding-top: 10%;
+}
+
+/* ready to wear ****************/
+
+.weartowear1 {
+  width: 80%;
+  padding-top: 25%;
 }
