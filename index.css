@@ -210,3 +210,21 @@ padding-top: 10%;
 .espacio{
   padding-top: 5%;
 }
+
+/* facebook icon */
+
+.facebook {
+  color: white;
+  position: absolute;
+  text-align: center;
+}
+
+/* .my_container4 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 0 0 0; 
+  width: 100%; 
+  padding-top: 10%;
+  padding-bottom: 5%;
+  align-items: fixed;
+} */
