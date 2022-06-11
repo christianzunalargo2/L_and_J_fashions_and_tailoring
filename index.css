@@ -123,39 +123,45 @@ hr {
 
 /* Our Story ****************/
 .story-img {
-  width: 95%;
-  padding-top: 15%;
+  align-items: center;
+  width: 50%;
+  padding-top: 10%;
 }
+
+.story-column {
+  float: left;
+  width: 50%;
+  padding-top:20%;
+  padding-bottom: 20%;
+  text-align: left;
+}
+
+.container-fluid-historia {
+  padding: 1% 12%;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
 h4 {
   font-weight: bolder;
 }
 
-.story-column {
-text-align: justify;
-padding-top: 10%;
+/* ready to wear ****************/
+
+.wear1 {
+  float: left;
+  width: 50%;
 }
 
-/* ready to wear ****************/
+.wear2 {
+  float: left;
+  width: 50%;
+}
 
 .weartowear1 {
   width: 80%;
   padding-top: 10%;
 }
-
-
-/* location **********************/
-/* .mapa {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-.mapa:hover {
-  width: 60%;
-  backdrop-filter: blur(10px);
-  filter: blur(4px);
-  transition: 0.5s ease;
-} */
 
 .container {
   position: relative;
@@ -200,25 +206,31 @@ padding-top: 10%;
 }
 
 .readywear{
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 /* Taylor Style ******************/
 
 .taylorstilo{
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 .espacio{
   padding-top: 5%;
 }
 
+.container-fluid-tstyle {
+  padding: 1% 12%;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
 /* facebook icon */
 
 .facebook {
   color: white;
-  position: absolute;
   text-align: center;
+  padding-top: 6%;
 }
 
 /* .my_container4 {
