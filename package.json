@@ -7,5 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Christian Zuna and Joffre Torres",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianzunalargo2/L_and_J_fashions_and_tailoring.git"
+  },
+  "bugs": {
+    "url": "https://github.com/christianzunalargo2/L_and_J_fashions_and_tailoring/issues"
+  },
+  "homepage": "https://github.com/christianzunalargo2/L_and_J_fashions_and_tailoring#readme"
 }
