@@ -8,12 +8,11 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-
-app.listen(3000, function(){
-  console.log("server started on port 3000");
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/index.html');
 });
 
 
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+app.listen(process.env.PORT || 2000, () => {
+  console.log("Server is running.....");
 });
