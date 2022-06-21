@@ -4,8 +4,7 @@
   "description": "static website for small bussiness",
   "main": "index.js",
   "scripts": {
-    "start": "index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Christian Zuna and Joffre Torres",
   "license": "ISC",
